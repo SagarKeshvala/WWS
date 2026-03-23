@@ -49,7 +49,7 @@ const plans = [
 
 const PricingSection = () => {
   return (
-    <section id="pricing" className="py-24 md:py-32">
+    <section id="pricing" className="py-16 md:py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4 text-center">

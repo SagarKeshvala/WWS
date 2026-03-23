@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-24 md:py-32">
+    <section id="contact" className="py-16 md:py-24">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
           <ScrollReveal>

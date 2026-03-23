@@ -41,7 +41,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section id="faq" className="py-24 md:py-32 bg-secondary/50">
+    <section id="faq" className="py-16 md:py-24 bg-secondary/50">
       <div className="container mx-auto px-6 max-w-3xl">
         <ScrollReveal>
           <p className="text-sm font-medium uppercase tracking-widest text-primary mb-3">

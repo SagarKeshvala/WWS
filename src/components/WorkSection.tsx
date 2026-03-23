@@ -24,7 +24,7 @@ const projects = [
 
 const WorkSection = () => {
   return (
-    <section id="work" className="py-24 md:py-32 bg-secondary/40">
+    <section id="work" className="py-16 md:py-24 bg-secondary/40">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
