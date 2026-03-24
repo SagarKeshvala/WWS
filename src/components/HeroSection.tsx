@@ -58,13 +58,13 @@ const HeroSection = () => {
             transition: "all 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.55s",
           }}
         >
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 active:scale-[0.97]"
+          <button
+            onClick={() => (window as any).Calendly?.initPopupWidget({ url: 'https://calendly.com/webwithsam' })}
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 active:scale-[0.97] cursor-pointer"
           >
             <ArrowUpRight size={16} />
             Book a Free Call
-          </a>
+          </button>
           <a
             href="#pricing"
             className="inline-flex items-center gap-2 rounded-full border border-foreground/15 px-7 py-3.5 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-all duration-200 active:scale-[0.97]"
