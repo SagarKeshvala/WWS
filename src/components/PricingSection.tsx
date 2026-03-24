@@ -87,7 +87,7 @@ const PricingSection = () => {
                   <span className="heading-display text-4xl text-foreground">£{plan.price}</span>
                   <span className="text-sm text-muted-foreground">/month</span>
                 </div>
-                <p className="mt-3 text-sm text-muted-foreground">{plan.description}</p>
+                <p className="mt-3 text-base text-muted-foreground">{plan.description}</p>
 
                 <ul className="mt-8 space-y-3">
                   {plan.features.map((feature) => (
