@@ -29,7 +29,7 @@ const ServicesSection = () => {
     <section id="services" className="py-16 md:py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
             Our Services
           </p>
         </ScrollReveal>
