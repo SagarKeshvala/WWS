@@ -34,14 +34,14 @@ const ContactSection = () => {
                 <Mail size={16} />
                 hello@webwithsam.com
               </a>
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 rounded-full border border-foreground/15 px-7 py-3.5 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-all duration-200 active:scale-[0.97]"
+              <button
+                onClick={() => (window as any).Calendly?.initPopupWidget({ url: 'https://calendly.com/webwithsam' })}
+                className="inline-flex items-center gap-2 rounded-full border border-foreground/15 px-7 py-3.5 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-all duration-200 active:scale-[0.97] cursor-pointer"
               >
                 <MessageCircle size={16} />
                 Book a Free Call
                 <ArrowUpRight size={14} />
-              </a>
+              </button>
             </div>
           </ScrollReveal>
         </div>
