@@ -13,7 +13,7 @@ const HeroSection = () => {
     <section className="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
       <div className="container mx-auto px-6 text-center" ref={ref}>
         <p
-          className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-6"
+          className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-6"
           style={{
             opacity: visible ? 1 : 0,
             transform: visible ? "translateY(0)" : "translateY(12px)",

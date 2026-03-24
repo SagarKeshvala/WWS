@@ -56,7 +56,7 @@ const WorkSection = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mt-1.5">
                     {project.name}
                   </h3>
-                  <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+                  <p className="text-base text-muted-foreground mt-2 leading-relaxed">
                     {project.description}
                   </p>
                 </div>
