@@ -62,7 +62,7 @@ const PricingSection = () => {
           </h2>
         </ScrollReveal>
         <ScrollReveal delay={140}>
-          <p className="text-center text-muted-foreground mt-4 max-w-md mx-auto text-sm">
+          <p className="text-center text-muted-foreground mt-4 max-w-md mx-auto text-base">
             No hidden fees. No long contracts. Cancel anytime. All plans include hosting and support.
           </p>
         </ScrollReveal>
