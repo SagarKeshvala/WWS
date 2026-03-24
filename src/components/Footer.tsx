@@ -1,10 +1,12 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border/60 py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <p className="font-display text-lg font-bold text-foreground">WebWithSam</p>
+            <img src={logo} alt="WebWithSam" className="h-7" />
             <p className="text-xs text-muted-foreground mt-1">Beautiful websites for UK businesses.</p>
           </div>
 
