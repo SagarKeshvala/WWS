@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src={logo} alt="WebWithSam" className="h-8" />
         </a>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
+        <div className="hidden md:flex items-center gap-8 text-base font-medium text-muted-foreground">
           <a href="#services" className="hover:text-foreground transition-colors duration-200">Services</a>
           <a href="#work" className="hover:text-foreground transition-colors duration-200">Our Work</a>
           <a href="#pricing" className="hover:text-foreground transition-colors duration-200">Pricing</a>

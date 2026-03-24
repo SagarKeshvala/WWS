@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
           <ScrollReveal>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-4">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-4">
               Limited Spots Available
             </p>
           </ScrollReveal>

@@ -27,7 +27,7 @@ const WorkSection = () => {
     <section id="work" className="py-16 md:py-24 bg-secondary/40">
       <div className="container mx-auto px-6">
         <ScrollReveal>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
             Our Work
           </p>
         </ScrollReveal>
@@ -56,7 +56,7 @@ const WorkSection = () => {
                   <h3 className="font-display text-lg font-semibold text-foreground mt-1.5">
                     {project.name}
                   </h3>
-                  <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+                  <p className="text-base text-muted-foreground mt-2 leading-relaxed">
                     {project.description}
                   </p>
                 </div>
