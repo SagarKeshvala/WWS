@@ -7,11 +7,12 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import FloatingShapes from "@/components/FloatingShapes";
 
 const Index = () => {
   return (
-    <div className="min-h-screen overflow-x-hidden">
-      <Navbar />
+    <div className="min-h-screen overflow-x-hidden relative">
+      <FloatingShapes />
       <HeroSection />
       <ServicesSection />
       <WorkSection />
