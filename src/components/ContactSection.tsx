@@ -28,11 +28,11 @@ const ContactSection = () => {
           <ScrollReveal delay={240}>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="mailto:hello@webwithsam.com"
+                href="mailto:info@webwithsam.com"
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 active:scale-[0.97]"
               >
                 <Mail size={16} />
-                hello@webwithsam.com
+                info@webwithsam.com
               </a>
               <button
                 onClick={() => (window as any).Calendly?.initPopupWidget({ url: 'https://calendly.com/webwithsam' })}
