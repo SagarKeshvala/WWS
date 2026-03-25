@@ -60,10 +60,10 @@ const FAQSection = () => {
                 value={`item-${i}`}
                 className="border-border/60"
               >
-                <AccordionTrigger className="text-left text-base font-medium text-foreground hover:no-underline hover:text-primary transition-colors">
+                <AccordionTrigger className="text-left text-lg font-medium text-foreground hover:no-underline hover:text-primary transition-colors">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
+                <AccordionContent className="text-base text-muted-foreground leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
