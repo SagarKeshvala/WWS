@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <img src={logo} alt="WebWithSam" className="h-7" />
-            <p className="text-xs text-muted-foreground mt-1">Beautiful websites for UK businesses.</p>
+            <img src={logo} alt="WebWithSam" className="h-14" />
+            <p className="text-sm text-muted-foreground mt-1">Beautiful websites for UK businesses.</p>
           </div>
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
