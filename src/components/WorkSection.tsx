@@ -37,7 +37,7 @@ const WorkSection = () => {
           </h2>
         </ScrollReveal>
 
-        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projects.map((project, i) => (
             <ScrollReveal key={project.name} delay={120 + i * 90}>
               <div className="group rounded-2xl overflow-hidden bg-card border border-border/60 hover:shadow-lg hover:shadow-foreground/[0.03] transition-shadow duration-300">
