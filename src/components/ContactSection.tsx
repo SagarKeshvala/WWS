@@ -13,15 +13,15 @@ const ContactSection = () => {
           </ScrollReveal>
           <ScrollReveal delay={80}>
             <h2 className="heading-display text-[clamp(1.8rem,5vw,3.5rem)] text-foreground">
-              Ready to Get
+              Ready to Scale
               <br />
-              Your Dream Website?
+              Your Agency?
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={160}>
             <p className="mt-6 text-muted-foreground max-w-md mx-auto">
-              We only take on a handful of projects each month to ensure top quality.
-              Get in touch today to secure your spot.
+              I only partner with a handful of agencies at a time to ensure top quality.
+              NDA signed before we start. Get in touch today.
             </p>
           </ScrollReveal>
 

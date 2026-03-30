@@ -20,7 +20,7 @@ const HeroSection = () => {
             transition: "all 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s",
           }}
         >
-          UK's Trusted Website Partner
+          Your White-Label Elementor Partner
         </p>
 
         <h1
@@ -32,9 +32,9 @@ const HeroSection = () => {
             transition: "all 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s",
           }}
         >
-          Beautiful Websites
+          Elementor Builds
           <br />
-          That Convert
+          Done For You
         </h1>
 
         <p
@@ -45,9 +45,9 @@ const HeroSection = () => {
             transition: "all 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.4s",
           }}
         >
-          We design and build clean, high-converting websites for{" "}
-          <strong className="text-foreground">UK businesses</strong>. From startups to established brands —
-          get a professional website from just <strong className="text-foreground">£49/month</strong>.
+          I handle your <strong className="text-foreground">Elementor projects</strong> so your agency doesn't
+          have to hire in-house. Pixel-perfect builds, NDA-ready, from just{" "}
+          <strong className="text-foreground">£49/month</strong>.
         </p>
 
         <div

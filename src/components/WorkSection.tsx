@@ -3,21 +3,21 @@ import heroImg from "@/assets/hero-showcase.jpg";
 
 const projects = [
   {
-    name: "TechFlow SaaS",
-    category: "B2B SaaS",
-    description: "Complete website redesign driving 3x more demo bookings within the first quarter.",
+    name: "Apex Digital",
+    category: "Agency Partner — UK",
+    description: "Built 40+ Elementor pages for their client roster, reducing their turnaround time by 60%.",
     image: heroImg,
   },
   {
-    name: "Greenfield Finance",
-    category: "Fintech",
-    description: "A clean, trust-building website that helped secure their Series A funding round.",
+    name: "Brightwave Agency",
+    category: "Agency Partner — USA",
+    description: "Ongoing white-label retainer handling all WordPress & Elementor overflow projects.",
     image: heroImg,
   },
   {
-    name: "Bloom Studio",
-    category: "Creative Agency",
-    description: "Bold portfolio site with smooth animations, increasing enquiries by 180%.",
+    name: "Kreatif Studio",
+    category: "Agency Partner — Germany",
+    description: "Complex multi-site Elementor builds with WooCommerce integration for their European clients.",
     image: heroImg,
   },
 ];
@@ -28,12 +28,12 @@ const WorkSection = () => {
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
-            Our Work
+            Portfolio
           </p>
         </ScrollReveal>
         <ScrollReveal delay={80}>
           <h2 className="heading-display text-[clamp(1.8rem,4vw,3rem)] text-foreground max-w-2xl">
-            Projects We're Proud Of.
+            White-Label Work, Agency Quality.
           </h2>
         </ScrollReveal>
 
