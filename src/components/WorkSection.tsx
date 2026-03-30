@@ -41,7 +41,7 @@ const WorkSection = () => {
           {projects.map((project, i) => (
             <ScrollReveal key={project.name} delay={120 + i * 90}>
               <div className="group rounded-2xl overflow-hidden bg-card border border-border/60 hover:shadow-lg hover:shadow-foreground/[0.03] transition-shadow duration-300">
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-[4/2] overflow-hidden">
                   <img
                     src={project.image}
                     alt={`${project.name} website`}
