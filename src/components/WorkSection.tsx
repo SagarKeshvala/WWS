@@ -42,13 +42,12 @@ const WorkSection = () => {
             <ScrollReveal key={project.name} delay={120 + i * 90}>
               <div className="group rounded-2xl overflow-hidden bg-card border border-border/60 hover:shadow-lg hover:shadow-foreground/[0.03] transition-shadow duration-300">
                 <div className="aspect-[4/3] overflow-hidden">
-                <iframe src="https://www.callamarketer.com/"></iframe>
-                  {/* <img
+                  <img
                     src={project.image}
                     alt={`${project.name} website`}
                     className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500"
                     loading="lazy"
-                  /> */}
+                  />
                 </div>
                 <div className="p-6">
                   <span className="text-[10px] font-semibold uppercase tracking-wider text-primary">
