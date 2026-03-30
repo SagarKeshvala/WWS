@@ -46,8 +46,8 @@ const HeroSection = () => {
           }}
         >
           I handle your <strong className="text-foreground">Elementor projects</strong> so your agency doesn't
-          have to hire in-house. Pixel-perfect builds, NDA-ready, from just{" "}
-          <strong className="text-foreground">£49/month</strong>.
+          have to hire in-house. Pixel-perfect builds, NDA-ready — available{" "}
+          <strong className="text-foreground">hourly, per page, or on retainer</strong>.
         </p>
 
         <div
