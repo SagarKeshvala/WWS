@@ -25,12 +25,32 @@ const Navbar = () => {
           <a href="#reviews" className="hover:text-foreground transition-colors duration-200">Reviews</a>
         </div>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center gap-1.5 rounded-full border border-foreground/15 px-5 py-2 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-all duration-200 active:scale-[0.97]"
-        >
-          Get In Touch
-        </a>
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="https://www.linkedin.com/in/sarmankeshvala/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-9 h-9 rounded-full border border-border/60 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-all duration-200"
+            aria-label="LinkedIn"
+          >
+            <Linkedin size={16} />
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~01dc32e0465e7b20d7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-9 h-9 rounded-full border border-border/60 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-all duration-200"
+            aria-label="Upwork"
+          >
+            <UpworkIcon size={15} />
+          </a>
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-1.5 rounded-full border border-foreground/15 px-5 py-2 text-sm font-medium text-foreground hover:bg-foreground hover:text-background transition-all duration-200 active:scale-[0.97]"
+          >
+            Get In Touch
+          </a>
+        </div>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
