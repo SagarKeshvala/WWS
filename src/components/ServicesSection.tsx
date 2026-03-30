@@ -4,22 +4,22 @@ import ScrollReveal from "./ScrollReveal";
 const services = [
   {
     icon: Palette,
-    title: "Website Design",
+    title: "Elementor Design & Build",
     description:
-      "Bespoke, conversion-focused designs tailored to your brand. We create clean, modern websites that build trust and drive results.",
+      "Pixel-perfect Elementor pages built from your designs or wireframes. Fully responsive, optimised for speed, and ready to hand off to your client.",
     tag: "Most Popular",
   },
   {
     icon: Code,
-    title: "Website Development",
+    title: "WordPress Development",
     description:
-      "Fast, responsive, SEO-optimised websites built with modern technology. Every site is mobile-first and lightning quick.",
+      "Custom theme tweaks, plugin integration, WooCommerce setup, and advanced Elementor builds. Your agency's scope, my execution.",
   },
   {
     icon: Zap,
     title: "Monthly Retainer",
     description:
-      "Ongoing website updates, maintenance and support. Keep your site fresh, secure and performing — without hiring in-house.",
+      "Ongoing Elementor support for your agency — site updates, new pages, revisions, and maintenance. Scale without the overhead.",
     tag: "From £49/mo",
   },
 ];
@@ -30,13 +30,13 @@ const ServicesSection = () => {
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4">
-            Our Services
+            Services
           </p>
         </ScrollReveal>
         <ScrollReveal delay={80}>
           <h2 className="heading-display text-[clamp(1.8rem,4vw,3rem)] text-foreground max-w-2xl">
-            Design, Development
-            <br />& Ongoing Support.
+            Build, Develop
+            <br />& Support — White Label.
           </h2>
         </ScrollReveal>
 

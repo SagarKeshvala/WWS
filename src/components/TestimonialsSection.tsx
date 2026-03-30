@@ -3,22 +3,22 @@ import ScrollReveal from "./ScrollReveal";
 
 const testimonials = [
   {
-    text: "Sam completely transformed our online presence. Within weeks of launching, we saw a 40% increase in enquiries. The site looks incredible and works flawlessly on every device.",
-    name: "Rachel Whitfield",
-    role: "Founder @ BrightPath Consulting",
-    initials: "RW",
+    text: "Sam has been our go-to Elementor partner for over a year. He delivers pixel-perfect builds on time, every time. Our clients never know we outsource — that's how seamless it is.",
+    name: "Mark Stevens",
+    role: "Founder @ Apex Digital (UK)",
+    initials: "MS",
   },
   {
-    text: "We were paying a fortune for our old agency and getting nowhere. WebWithSam delivered a better site in half the time for a fraction of the cost. Couldn't recommend highly enough.",
-    name: "James Harrington",
-    role: "Director @ Oakwood Properties",
-    initials: "JH",
+    text: "We needed someone who could handle overflow Elementor work without hand-holding. Sam gets it done faster than our in-house team ever did. Absolute game-changer for our agency.",
+    name: "Emily Carter",
+    role: "COO @ Brightwave Agency (USA)",
+    initials: "EC",
   },
   {
-    text: "The monthly subscription model is genius. We get constant updates and support without worrying about surprise invoices. Our site always looks fresh and performs brilliantly.",
-    name: "Priya Sharma",
-    role: "Marketing Lead @ Nexen Digital",
-    initials: "PS",
+    text: "Reliable, detail-oriented, and fully white-label. Sam signed an NDA day one and has been an extension of our team since. Highly recommend to any agency scaling up.",
+    name: "Daniel Müller",
+    role: "Director @ Kreatif Studio (Germany)",
+    initials: "DM",
   },
 ];
 
@@ -28,12 +28,12 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-4 text-center">
-            Client Reviews
+            Agency Reviews
           </p>
         </ScrollReveal>
         <ScrollReveal delay={80}>
           <h2 className="heading-display text-[clamp(1.8rem,4vw,3rem)] text-foreground text-center max-w-2xl mx-auto">
-            Our Clients Love Working With Us.
+            Trusted by Agencies Worldwide.
           </h2>
         </ScrollReveal>
 

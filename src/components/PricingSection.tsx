@@ -5,44 +5,44 @@ const plans = [
   {
     name: "Starter",
     price: "49",
-    description: "Perfect for small businesses just getting online.",
+    description: "Ideal for agencies with occasional Elementor overflow work.",
     features: [
-      "Up to 5-page website",
-      "Mobile responsive design",
-      "Basic SEO setup",
-      "Monthly content updates",
-      "SSL & security",
+      "Up to 5 pages per month",
+      "Responsive Elementor builds",
+      "Basic revisions included",
+      "48-hour turnaround",
+      "NDA signed upfront",
       "Email support",
     ],
   },
   {
     name: "Growth",
     price: "99",
-    description: "For businesses ready to scale their online presence.",
+    description: "For agencies with steady client work needing reliable output.",
     features: [
-      "Up to 15-page website",
-      "Custom design & branding",
-      "Advanced SEO & analytics",
-      "Weekly content updates",
-      "Priority support",
-      "Performance optimisation",
-      "Blog setup & management",
+      "Up to 15 pages per month",
+      "Custom Elementor designs",
+      "Advanced WordPress setup",
+      "24-hour turnaround",
+      "Priority Slack support",
+      "WooCommerce builds",
+      "Plugin integration",
     ],
     popular: true,
   },
   {
-    name: "Enterprise",
+    name: "Agency Pro",
     price: "249",
-    description: "Full-service web partner for ambitious brands.",
+    description: "Your dedicated white-label Elementor partner on demand.",
     features: [
       "Unlimited pages",
-      "Bespoke design system",
-      "E-commerce integration",
-      "Dedicated account manager",
-      "Same-day support",
-      "A/B testing & CRO",
-      "Custom integrations",
-      "Monthly strategy call",
+      "Full white-label workflow",
+      "Complex multi-site builds",
+      "Dedicated Slack channel",
+      "Same-day turnaround",
+      "Custom plugin & theme work",
+      "Strategy & consultation",
+      "Weekly sync call",
     ],
   },
 ];
@@ -63,7 +63,7 @@ const PricingSection = () => {
         </ScrollReveal>
         <ScrollReveal delay={140}>
           <p className="text-center text-muted-foreground mt-4 max-w-md mx-auto text-base">
-            No hidden fees. No long contracts. Cancel anytime. All plans include hosting and support.
+            No hidden fees. No long contracts. Cancel anytime. NDA signed before we start.
           </p>
         </ScrollReveal>
 

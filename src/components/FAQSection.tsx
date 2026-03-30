@@ -8,34 +8,34 @@ import {
 
 const faqs = [
   {
-    question: "What's included in the monthly subscription?",
+    question: "How does the white-label process work?",
     answer:
-      "Every plan includes a professionally designed website, hosting, SSL certificate, mobile responsiveness, and ongoing maintenance. Higher tiers add features like SEO optimisation, e-commerce, and priority support.",
+      "You send me the design files, brief, or wireframes — I build the pages in Elementor and deliver them under your brand. Your clients never know I exist. I sign an NDA upfront to guarantee confidentiality.",
+  },
+  {
+    question: "What's included in the monthly retainer?",
+    answer:
+      "Each plan includes a set number of Elementor page builds per month, revisions, responsive optimisation, and direct communication via email or Slack. Higher tiers add faster turnaround and dedicated support.",
   },
   {
     question: "Can I cancel my subscription at any time?",
     answer:
-      "Yes — there are no long-term contracts. You can cancel at any time with 30 days' notice. If you cancel, your website will remain live until the end of your billing period.",
+      "Yes — no long-term contracts. Cancel with 30 days' notice. Any work in progress will be completed and delivered before the end of your billing period.",
   },
   {
-    question: "How long does it take to build my website?",
+    question: "What tools and platforms do you work with?",
     answer:
-      "Most websites are designed and launched within 5–10 business days, depending on the plan and complexity. We'll keep you updated at every stage.",
+      "I specialise in WordPress + Elementor Pro. I also work with WooCommerce, ACF, and various third-party plugin integrations. If you have a specific stack, let's chat.",
   },
   {
-    question: "Do I need to provide content and images?",
+    question: "What's your turnaround time?",
     answer:
-      "We can work with whatever you have. If you don't have professional photos or copy, we'll source royalty-free imagery and help craft content that fits your brand.",
+      "Standard turnaround is 48 hours for the Starter plan, 24 hours for Growth, and same-day for Agency Pro. Complex multi-page builds may require additional time — I'll always communicate timelines upfront.",
   },
   {
-    question: "Will my website work on mobile devices?",
+    question: "Do you sign NDAs?",
     answer:
-      "Absolutely. Every website we build is fully responsive and tested across all major devices and browsers to ensure a seamless experience for your visitors.",
-  },
-  {
-    question: "Do you offer custom design or just templates?",
-    answer:
-      "Every website is custom-designed to match your brand. We don't use cookie-cutter templates — your site will be unique to your business.",
+      "Absolutely. I sign an NDA before any project begins. Confidentiality is non-negotiable — your client relationships are fully protected.",
   },
 ];
 
